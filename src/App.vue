@@ -49,7 +49,10 @@
       </button>
     </div>
     <!-- Tampilan audio -->
-    <audio class="mt-5" controls src="/Phing Shuai Kung 30 menit.mp3"></audio>
+    <div class="flex gap-3 shadow rounded-lg py-3 px-5 items-center">
+      <audio class="mt-5" controls src="/Phing Shuai Kung 30 menit.mp3"></audio>
+      <h5 class="text-xl">30 Menit</h5>
+    </div>
     <!-- Tampilan Countdown -->
     <div
       v-if="remainingTime > 0"
